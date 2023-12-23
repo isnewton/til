@@ -43,6 +43,12 @@ shft g = go to the end of the file
 $ = go to the end of the line
 0 = go to the start of the line
 
+f [letter] = go to next letter
+; = go to next matching letter
+
+
+F [letter] = go to previous letter
+, = go to previous matching letter
 
 -----------------
 
@@ -78,6 +84,8 @@ aw = select word with next space
 
 viw = select word with text objects
 
+viW = select word until white space
+
 
 vi( = select what's inside ()
 
@@ -91,6 +99,8 @@ v i a / v a a = select function argument
 
 -------------
 Replace:
+
+r [letter] = replace current letter with a letter.
 
 c i w = replaace word
 
@@ -191,5 +201,6 @@ Special chars:
     leader r n = rename variable
 
     suroound text with ' : visual the text, then S '
+
 
 
