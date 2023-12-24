@@ -43,13 +43,12 @@ shft g = go to the end of the file
 $ = go to the end of the line
 0 = go to the start of the line
 
-f [letter] = go to next letter
-; = go to next matching letter
+% = go to the next closing bracket/paranthesis . if is already in  bracket/paranthesis, go to the connected pair of  bracket/paranthesis.
 
 
-F [letter] = go to previous letter
-, = go to previous matching letter
+> > = indent the line
 
+> [number] [jk] = indent number of lines 
 -----------------
 
 
